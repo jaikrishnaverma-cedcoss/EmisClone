@@ -1,0 +1,154 @@
+:root {
+    --blue: #006fa6;
+    --white: #ffffff;
+    --green: #20a645;
+    --grey: ccc;
+}
+
+.cl-1 {
+    background-color: var(--blue) !important;
+    color: white;
+}
+
+.border {
+    border-color: #ccc !important;
+    ;
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.navbar * {
+    color: #ffffff !important;
+}
+
+.dropdown-menu {
+    background-color: var(--green);
+}
+
+.dropdown-menu:hover {
+    background-color: var(--green);
+}
+
+.dropdown-item:hover {
+    background-color: var(--blue);
+}
+
+.navbar-brand {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.navbar-light {
+    min-height: 75px !important;
+}
+
+.logo {
+    position: relative;
+    margin-right: 10%;
+    min-height: 60px;
+    margin-top: 15px;
+}
+
+.abslogo {
+    position: absolute;
+    top: -8px;
+    left: 0px;
+    width: 85px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+    color: grey !important;
+}
+
+/* navs & tabs */
+.loanproduct-nav {
+    padding: 15px;
+    text-decoration: none;
+    color: #333 !important;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.3;
+    text-align: center;
+    outline: 0 none;
+}
+
+.nav.nav-tabs button {
+    border: 1px solid #ccc !important;
+
+    background-color: rgb(226, 226, 226);
+    border-bottom: 0px;
+    border-radius: 0px;
+}
+
+.nav-tabs .active {
+    background-color: var(--grey) !important;
+    border-bottom-color: transparent !important;
+}
+
+.text-3 {
+    font-size: 1.3rem;
+}
+
+#scale span span,
+#scale span {
+    font-size: 10px;
+}
+
+.dash {
+    border: none;
+    border-radius: 0px !important;
+    border-top: 1px dashed grey;
+    border-bottom: 1px dashed grey;
+}
+
+.cards {
+    border: 3px dashed #ccc;
+}
+
+.mainBox {
+    background-color: #eeeeee;
+}
+
+@media (min-width: 576px) {
+    .linkbox {
+        flex: 0 0 auto;
+        width: 32%;
+    }
+}
+
+.deviders {
+    border-top: 3px double #ccc !important;
+}
+
+.menu-container .list-group-item:first-child {
+    border-top: transparent !important;
+}
+
+.content-info {
+    background: #0072aa url(../images/textured_stripes_brand_primary.png);
+    color: #fff;
+}
+
+footer ul .menu-item a,.textwidget p a{
+color: white !important;
+text-decoration: none;
+}
+.content-info .widget ul li {
+    border-bottom: 1px dashed #fff;
+    padding: 0.5em 0;
+}
+
+footer ul{
+    list-style: none !important;
+}
+
+footer ol, ul {
+    padding-left: 0rem;
+}
