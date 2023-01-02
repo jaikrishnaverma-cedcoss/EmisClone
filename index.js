@@ -1,5 +1,5 @@
 function EmiCalculator(p, n, r) {
-    const mName = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUNE', 'JULY', 'AUG', 'SEPT', 'OCT', 'NOV', 'DEC'];
+    const mName = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
     let date = new Date()
     let currYear = parseInt(date.getFullYear())
     let currMonth = date.getMonth()
